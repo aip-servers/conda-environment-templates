@@ -1,0 +1,16 @@
+name: tensorflow_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - tensorflow
+  - numpy
+  - scikit-learn
+  - transformers
+  - datasets
+  - wandb
+  - matplotlib
+  - plotly
+  - seaborn
+  - accelerate

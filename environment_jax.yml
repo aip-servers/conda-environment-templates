@@ -1,0 +1,19 @@
+name: jax_env
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11
+  - jaxlib=0.4.23[cuda118]
+  - jax=0.4.23
+  - numpy
+  - scikit-learn
+  - transformers
+  - datasets
+  - wandb
+  - matplotlib
+  - plotly
+  - seaborn
+  - accelerate
+  - flax
+  - cuda-nvcc

@@ -1,0 +1,20 @@
+name: pytorch_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch::pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - numpy
+  - scikit-learn
+  - transformers
+  - datasets
+  - wandb
+  - accelerate
+  - matplotlib
+  - plotly
+  - seaborn
